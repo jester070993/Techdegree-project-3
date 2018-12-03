@@ -1,0 +1,36 @@
+/*Base Styles */
+
+
+h1 {
+	margin-top: 0;
+}
+
+fieldset {
+	border: none;
+}
+
+
+label, input,select, option, button {
+	display: block;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+	display: inline;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+
+/*mobile*/
+@media (min-width: 320px){
+	
+}
+
+/*desktop*/
+@media (min-width: 768px){
+
+}
+
