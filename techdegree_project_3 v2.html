@@ -2,159 +2,176 @@
 <html>
 <head>
 	<title></title>
-
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="my_reset.css">
-		<link rel="stylesheet" type="text/css" href="techdegree_project_3 v2.css">
+	<link rel="stylesheet" type="text/css" href="techdegree_project_3 v2.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 
 
 </head>
 
 <body >
+<header>
+<h1> The Code Review </h1>
+</header>
+<!-- <div class="container"> -->
+
+<!-- <div class="container">
+ -->
+
+<!--  <div class="center_div">
+ --><main>
+
+<div class="top_container">
+<h2> Signup for our newsletter </h2>
+<h3 > Get the latest news on how your code is doing right in your inbox </h3>
+</div>
 
 
-<div class="container">
+<div class="main_flex">
+	<div class="outline"></div>
 
 <form>
-<h1> The Code Review </h1>
 
-<h2> Signup for our newsletter </h2>
-<h3> Get the latest news on how your code is doing right in your inbox </h3>
-<fieldset>
-<legend> Contact Information </legend>
+<fieldset  class="first_fieldset" >
+	<legend class="top_text"> Contact Information </legend>
 
-<div class="flex-2">
 	<div class="input_container">
+		<label class="item"> Full Name </label><input class="item2 input" type="text" name="fullName" required="">
+	</div>
+	<div class="input_container">
+		<label class="item label"> Email  </label> <input class="item2 input" type="text"  name="email" >
+	</div>
+	<div class="input_container">
+		<label class="item label"> Phone Number </label> <input class="item2 input" type="text" name="phone">
+	</div>
+	<div class="input_container">
+		<label class="item label">Street Address </label><input class="item2 input" type="text" name="address">
+	</div>
+	<div class="input_container">
+		<label class="item label"> City </label> <input  class="item2 input" type="select" name="city">
+	</div>
+	<div class="input_container">
+		<label class="item label"> State </label>
+		<select name="state" class="item2 input" id="selection">
+			<option> AL Alabama </option>
+			<option>AK Alaska</option>
+			<option>AZ Arizona</option>
+			<option>AR Arkansas</option>
+			<option>CO Colorado</option>
+			<option>CT Connecticut</option>
+			<option>DE Delaware</option>
+			<option>DC District of Columbia</option>
+			<option>FL Florida</option>
+			<option>GA Georgia</option>
+			<option>HI Hawaii</option>
+			<option>ID Idaho</option>
+			<option>IL Illinois</option>
+			<option>IN Indiana</option>
+			<option>IA Iowa</option>
+			<option>KS Kansas</option>
+			<option>KY Kentucky</option>
+			<option>LA Louisiana</option>
+			<option>ME Maine</option>
+			<option>MD Maryland</option>
+			<option>MA Massachusetts</option>
+			<option>MI Michigan</option>
+			<option>MN Minnesota</option>
+			<option>MS Mississippi</option>
+			<option>MO Missouri</option>
+			<option>MT Montana</option>
+			<option>NE Nebraska</option>
+			<option>NV Nevada</option>
+			<option>NH New Hampshire</option>
+			<option>NJ New Jersey</option>
+			<option>NM New Mexico</option>
+			<option>NY New York</option>
+			<option>NC North Carolina</option>
+			<option>ND North Dakota</option>
+			<option>OH Ohio</option>
+			<option>OK Oklahoma</option>
+			<option>OR Oregon</option>
+			<option>PA Pennsylvania</option>
+			<option>RI Rhode Island</option>
+			<option>SC South Carolina</option>
+			<option>SD South Dakota</option>
+			<option>TN Tennessee</option>
+			<option>TX Texas</option>
+			<option>UT Utah</option>
+			<option>VT Vermont</option>
+			<option>VA Virginia</option>
+			<option>WA Washington</option>
+			<option>WV West Virginia</option>
+			<option>WI Wisconsin</option>
+			<option>WY Wyoming</option>
+		</select> 
+	</div>
 
-<label class="item"> Full Name </label><input class="item2 input" type="text" name="fullName" required="">
-</div>
-<div class="input_container">
-<label class="item label"> Email  </label> <input class="item2 input" type="text"  name="email" >
-</div>
-<div class="input_container">
-<label class="item label"> Phone Number </label> <input class="item2 input" type="text" name="phone">
-</div>
-<div class="input_container">
-<label class="item label">Street Address </label><input class="item2 input" type="text" name="address">
-</div>
-<div class="input_container">
-<label class="item label"> City </label> <input  class="item2 input" type="select" name="city"></div>
-
-<div class="input_container">
-<label class="item label"> State </label>
-<select name="state" class="item2 input" id="selection">
-<option> AL Alabama </option>
-<option>AK Alaska</option>
-<option>AZ Arizona</option>
-<option>AR Arkansas</option>
-<option>CO Colorado</option>
-<option>CT Connecticut</option>
-<option>DE Delaware</option>
-<option>DC District of Columbia</option>
-<option>FL Florida</option>
-<option>GA Georgia</option>
-<option>HI Hawaii</option>
-<option>ID Idaho</option>
-<option>IL Illinois</option>
-<option>IN Indiana</option>
-<option>IA Iowa</option>
-<option>KS Kansas</option>
-<option>KY Kentucky</option>
-<option>LA Louisiana</option>
-<option>ME Maine</option>
-<option>MD Maryland</option>
-<option>MA Massachusetts</option>
-<option>MI Michigan</option>
-<option>MN Minnesota</option>
-<option>MS Mississippi</option>
-<option>MO Missouri</option>
-<option>MT Montana</option>
-<option>NE Nebraska</option>
-<option>NV Nevada</option>
-<option>NH New Hampshire</option>
-<option>NJ New Jersey</option>
-<option>NM New Mexico</option>
-<option>NY New York</option>
-<option>NC North Carolina</option>
-<option>ND North Dakota</option>
-<option>OH Ohio</option>
-<option>OK Oklahoma</option>
-<option>OR Oregon</option>
-<option>PA Pennsylvania</option>
-<option>RI Rhode Island</option>
-<option>SC South Carolina</option>
-<option>SD South Dakota</option>
-<option>TN Tennessee</option>
-<option>TX Texas</option>
-<option>UT Utah</option>
-<option>VT Vermont</option>
-<option>VA Virginia</option>
-<option>WA Washington</option>
-<option>WV West Virginia</option>
-<option>WI Wisconsin</option>
-<option>WY Wyoming</option>
-</select> 
-
-</div>
-
-<div class="input_container">
-<label class="item label" > Zip Code </label>
-<input type="text" name="zip" class="item2 input" id="zipcode">
-
-</div>
-
-</div>
+	<div class="input_container">
+		<div class="input_container1">
+			<label class="item label input_label"> Zip Code </label> 
+			<input  class="item2 input zipinput" type="text" name="zip" id="zipinput">
+		</div>
+	</div>
+	
 
 </fieldset>
 
-<fieldset>
-<legend> Newsletter </legend>
-<p> Select the newsletter you would like to recieve </p>
+<fieldset class="second_fieldset">
+	<legend> Newsletter </legend>
+	<p> Select the newsletter you would like to recieve </p>
 
-<div class="flex" >
+		<div class="flex" >
 
-<div class="child_flex">
- <input type="checkbox" name="html news" class="html_News">
- <label class="newsletter_box">  HTML News </label> </li>
+			<div class="child_flex">
+			 	<label class="newsletter_box"> 
+				<input type="checkbox" name="html news" class="html_News" id="checkbox"> HTML News </label> 
+			</div>
+			<div class="child_flex">
+				<label class="newsletter_box">
+				<input type="checkbox" name="css news" id="checkbox"> CSS News </label>
+			</div>
+
+			<div class="child_flex">
+				<label class="newsletter_box">
+				<input type="checkbox" name="javascript news" id="checkbox"> Javascript News </label>
+			</div>
+
+		</div>
+
+	<p> Newsletter Format </p>
+
+	<div class="flex">
+		<div class=child_flex>
+		<label>
+
+		<input type="radio" name="html news" id="radio" > HTML  </label>
+	</div>
+	<div class="child_flex">
+
+		<label class="radio">
+		<input type="radio" name="html news" id="radio" > Plain Text  </label>
+	</div>
+	</div>
+	<p> Other Topics you'd like to hear about </p>
+	<textarea name="textarea"></textarea>
+	<button type="submit" name="submit">Sign Up</button>
+</fieldset>
+</form>
+</div>
 </div>
 
-
-<div class="child_flex">
-<label class="newsletter_box">
-<input type="checkbox" name="css news"> CSS News </label>
+</main>
 </div>
-
-<div class="child_flex">
-<label class="newsletter_box">
-<input type="checkbox" name="javascript news"> Javascript News </label>
-</div>
-
-</div>
-
-<p> Newsletter Format </p>
-
-<div class="flex">
-<label>
-<input type="radio" name="html news" > HTML  </label>
-<label>
-<input type="radio" name="html news" > Plain Text  </label>
-</div>
-
-<p> Other Topics you'd like to hear about </p>
-<textarea name="textarea">
-</textarea>
-
-<button>
-	Sign Up
-</button>
 
 <footer>
-<h2 class=copyright_footer> Copyright The Code Review </h2>
+<h4 class=copyright_footer> Copyright The Code Review </h4>
 
 </footer>
 
 
-</fieldset>
+
 
 
 
