@@ -194,7 +194,7 @@ textarea{
 /*mobile*/
 
 /*CHANGE THE MEIDA QUERY PIXEL WIDTH BEFORE TURNNING IN!!*/
-@media (min-width: 547px){
+@media (min-width: 320px){
 		
 .zipinput{
 	width: 50%;
