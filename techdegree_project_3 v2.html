@@ -6,6 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="my_reset.css">
 	<link rel="stylesheet" type="text/css" href="techdegree_project_3 v2.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+
 
 
 
@@ -38,10 +41,10 @@
 	<legend class="top_text"> Contact Information </legend>
 
 	<div class="input_container">
-		<label class="item"> Full Name </label><input class="item2 input" type="text" name="fullName" required="">
+		<label class="item"> Full Name </label><input class="item2 input" type="text" name="fullName" placeholder="required">
 	</div>
 	<div class="input_container">
-		<label class="item label"> Email  </label> <input class="item2 input" type="text"  name="email" >
+		<label class="item label"> Email  </label> <input class="item2 input" type="text"  name="email"  placeholder="required">
 	</div>
 	<div class="input_container">
 		<label class="item label"> Phone Number </label> <input class="item2 input" type="text" name="phone">
@@ -54,7 +57,8 @@
 	</div>
 	<div class="input_container">
 		<label class="item label"> State </label>
-		<select name="state" class="item2 input" id="selection">
+		<select name="state" class="item2 input" id="selection" placeholder="state">
+			<option disabled selected> Select State </option>
 			<option> AL Alabama </option>
 			<option>AK Alaska</option>
 			<option>AZ Arizona</option>
@@ -149,12 +153,11 @@
 		<input type="radio" name="html news" id="radio" > HTML  </label>
 	</div>
 	<div class="child_flex">
-
 		<label class="radio">
-		<input type="radio" name="html news" id="radio" > Plain Text  </label>
+		<input type="radio" name="html news" id="lastRadio" > Plain Text  </label>
 	</div>
 	</div>
-	<p> Other Topics you'd like to hear about </p>
+	<p id="last_Line"> Other Topics you'd like to hear about </p>
 	<textarea name="textarea"></textarea>
 	<button type="submit" name="submit">Sign Up</button>
 </fieldset>
