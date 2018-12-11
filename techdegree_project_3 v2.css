@@ -163,7 +163,6 @@ p, label{
 
 input:focus{
   box-shadow: 0 0 9px steelblue;
-
 }
 
 
@@ -192,8 +191,8 @@ textarea{
 
 
 /*mobile*/
+/*label is above input*/
 
-/*CHANGE THE MEIDA QUERY PIXEL WIDTH BEFORE TURNNING IN!!*/
 @media (min-width: 320px){
 		
 .zipinput{
@@ -215,7 +214,8 @@ padding-right: 15px ;
 
 }
 
-/*desktop*/
+/*desktop/tabel*/
+/*label is to the side of the input box*/
 @media (min-width: 768px) {
 
 .input_container1{
